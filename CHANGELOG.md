@@ -1,3 +1,31 @@
+# 3.2.24 / 2021-07-15
+
+## Bug fixes:
+
+* Fix contradictory message about deletion of default gem. Pull request
+  #4739 by jaredbeck
+
+## Documentation:
+
+* Add a description about `GEM_HOST_OTP_CODE` to help text. Pull request
+  #4742 by ybiquitous
+
+# 3.2.23 / 2021-07-09
+
+## Enhancements:
+
+* Rewind IO source to allow working with contents in memory. Pull request
+  #4729 by drcapulet
+
+# 3.2.22 / 2021-07-06
+
+## Enhancements:
+
+* Allow setting `--otp` via `GEM_HOST_OTP_CODE`. Pull request #4697 by
+  CGA1123
+* Fixes for the edge case when openssl library is missing. Pull request
+  #4695 by rhenium
+
 # 3.2.21 / 2021-06-23
 
 ## Enhancements:
